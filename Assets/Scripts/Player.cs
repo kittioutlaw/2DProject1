@@ -32,8 +32,8 @@ public class Player : MonoBehaviour
                     velocity.y = 24f;
                 }
             }
-        }
             rb.velocity = velocity;
+        }
 
         void.DoMove()
             {
@@ -41,12 +41,12 @@ public class Player : MonoBehaviour
 
                 if (Input.GetKey("z"))
                 {
-                    velocity.x = 1;
+                    velocity.x = -10;
                 }
 
                 if (Input.GetKey("x"))
                 {
-                    
+                    velocity.x = 10;
                 }
             }
   
